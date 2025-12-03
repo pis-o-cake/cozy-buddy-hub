@@ -72,6 +72,10 @@ dependencies {
     implementation("androidx.compose.ui:ui-graphics")
     implementation("androidx.compose.ui:ui-tooling-preview")
     implementation("androidx.compose.material3:material3")
+    implementation(libs.navigation.compose)
+
+    // DataStore
+    implementation(libs.datastore.preferences)
 
     // Debug
     debugImplementation("androidx.compose.ui:ui-tooling")
